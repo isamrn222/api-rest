@@ -1,0 +1,25 @@
+###
+POST http://localhost:3008/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"nikole tesla",
+    "age":20,
+    "email":"nilcnkwn@gmail.com"
+}
+
+###
+GET  http://localhost:3008/api/users  HTTP/1.1
+
+###
+DELETE http://localhost:3008/api/users/655cf4b224c5572bd561ae80  HTTP/1.1
+
+###
+PUT  http://localhost:3008/api/users/655e3ee62e8272a72889f3ea HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "carlos acosta",
+    "age":45,
+    "email":"mariaisamrn@gmail.com"
+}
